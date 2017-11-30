@@ -42,9 +42,12 @@ public class Main {
         float fahrenheit = celsiusInput*9/5+32;
 
         System.out.println(celsiusInput + " Celsius= " + fahrenheit + " Fahrenheit");
-        System.out.print(fahrenheitInput + " Fahrenheit= " + celsius + " Celsius");
+        System.out.println(fahrenheitInput + " Fahrenheit= " + celsius + " Celsius");
 
 
+        /* a /n segítségével kírattam a Hello World szöveget egy keretben */
+
+        System.out.println("************\n* Hello    *\n* World    *\n* in       *\n* a        *\n* frame    *\n************");
 
 
 
