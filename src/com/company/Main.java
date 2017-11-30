@@ -24,6 +24,15 @@ public class Main {
         System.out.println(dl + " dl= " + l + " l");
         System.out.println(dl + " dl= " + hectol + " hectoliter");
 
+
+        /* Deklaráltam egy int és egy double típusú változót, a gömb térfogatának képletét felhasználva inicializáltam
+         * a volume változót és kiírattam a konzolra */
+        int r = 5 ;
+        double pi = 3.14159265359;
+        double volume = (4*r*r*r*pi)/3;
+        System.out.println("A " + r + " sugarú gömb térfogata: " + volume);
+
+
     }
     }
 
