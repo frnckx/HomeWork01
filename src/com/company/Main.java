@@ -11,6 +11,19 @@ public class Main {
         int area = numberA*numberB;
         System.out.println("A téglalap kerülete: " + perimeter);
         System.out.println("A téglalap területe: " + area);
+        /* Deklaráltam egy int típusú változót, ezt az értéket beszoroztam a különböző váltószámokkal, és inicializáltam
+ a ml, cl, l, hectol változókat, és kiírattam őket a konzolra */
+
+        int dl = 146;
+        int ml = dl*100;
+        int cl = dl*10;
+        double l = dl*0.1;
+        double hectol = dl*0.001;
+        System.out.println(dl + " dl= " + ml + " ml");
+        System.out.println(dl + " dl= " + cl + " cl");
+        System.out.println(dl + " dl= " + l + " l");
+        System.out.println(dl + " dl= " + hectol + " hectoliter");
+
     }
     }
 
