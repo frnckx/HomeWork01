@@ -33,6 +33,27 @@ public class Main {
         System.out.println("A " + r + " sugarú gömb térfogata: " + volume);
 
 
+        /* Deklaráltam két float típusú változót, a Fahrenheit és Celsius fokok átszámításának képletével inicializáltam
+        * a celsius és a fahrenheit változókat és kiírattam őket a konzolra.*/
+
+        float celsiusInput = 35;
+        float fahrenheitInput = 100;
+        float celsius = (fahrenheitInput- 32)*5/9;
+        float fahrenheit = celsiusInput*9/5+32;
+
+        System.out.println(celsiusInput + " Celsius= " + fahrenheit + " Fahrenheit");
+        System.out.print(fahrenheitInput + " Fahrenheit= " + celsius + " Celsius");
+
+
+
+
+
+
+
+
+
+
+
     }
     }
 
