@@ -49,8 +49,11 @@ public class Main {
 
         System.out.println("************\n* Hello    *\n* World    *\n* in       *\n* a        *\n* frame    *\n************");
 
-
-
+/* Deklaráltam egy char típusú változót majd az ascii változó inicializálásához a character változót kasztoltam
+ int típusúvá, végül kiírattam a konzolra */
+        char character = 'd';
+        int ascii = (int) character;
+        System.out.println("A " + character + " karakter ASCII kódja: " + ascii);
 
 
 
